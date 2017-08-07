@@ -1,10 +1,11 @@
  @tag
 Feature: Create a new install order with offnet UNI and verify the NMI Local Access type and Build out option
 
- 
+
   Scenario Outline: Check the offnet feature for NMI Local access type and Build out option
     Given As a UWS user open the application
     And enters "<username>" as username
+    And  This I am doing for GIT VALIDATION 
     And enters "<password>" as password
     And submit it
     When I enter the "<custname>" as customername and search by customer name
